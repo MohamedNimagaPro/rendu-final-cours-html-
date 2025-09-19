@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 50px;
+  color: yellow;
+  font-family: "Major Mono Display", monospace;
+  text-shadow: 2px 2px 10px aquamarine;
+  margin-bottom: 100px;
+  text-decoration: underline;
+}
+
+body {
+  font-family: "roboto", sans-serif;
+  background-image: url(Image/wp10147514.jpg);
+  background-size: cover;
+}
+
+.presentation-contenu {
+  display: flex;
+  justify-content: center;
+  column-gap: 300px;
+  row-gap: 100px;
+  font-size: 50px;
+  color: yellow;
+  text-shadow: 2px 2px 10px aquamarine;
+  flex-wrap: wrap;
+}
+
+.bloc-1 {
+}
+
+.bloc-2 {
+}
+
+.bloc-3 {
+}
+.presentation-contenu:hover {
+  color: red;
+}
+.presentation-contenu2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 100px;
+  row-gap: 100px;
+  align-items: center;
+  margin: auto;
+}
+
+.lejeu {
+  width: 1000px;
+  border-radius: 10px;
+  object-fit: cover;
+  filter: blur(3px);
+  transition: 0.3s ease-in-out;
+}
+
+.anime {
+  width: 1000px;
+  border-radius: 10px;
+  object-fit: cover;
+  filter: blur(3px);
+  transition: 0.3s ease-in-out;
+}
+.anime:hover {
+  filter: blur(0);
+}
+.lejeu:hover {
+  filter: blur(0);
+}
+
+.titre {
+  font-size: 25px;
+  color: yellow;
+  font-family: "Oswald", sans-serif;
+  text-shadow: 2px 2px 10px aquamarine;
+  margin-bottom: 50px;
+  text-decoration: underline;
+  width: 50%;
+  margin: auto;
+}
+a:visited {
+  color: yellow;
+}
+a:visited:hover {
+  color: red;
+}
+
+h2 {
+  font-size: 50px;
+  color: yellow;
+  font-family: "Major Mono Display", monospace;
+  text-shadow: 2px 2px 10px aquamarine;
+  margin-bottom: 100px;
+  text-decoration: underline;
+  margin-bottom: 100px;
+}
+
+.johnny {
+  display: flex;
+  width: 30%;
+  border-radius: 10px;
+  object-fit: cover;
+  filter: grayscale(100%);
+  transition: 0.3s ease-in-out;
+  align-items: end;
+  float: right;
+  margin-left: 500px;
+}
+.johnny:hover {
+  filter: grayscale(0);
+}
+
+.presentation-contenu3 {
+  display: flex;
+  justify-content: space-between;
+  height: 1000px;
+  margin: auto;
+}
+.titre2 {
+  font-size: 25px;
+  color: yellow;
+  font-family: "Oswald", sans-serif;
+  text-shadow: 2px 2px 10px aquamarine;
+  margin-bottom: 50px;
+  text-align: left;
+  width: 60%;
+}
+
+.h22 {
+  font-size: 50px;
+  color: yellow;
+  font-family: "Major Mono Display", monospace;
+  text-shadow: 2px 2px 10px aquamarine;
+  margin-bottom: 100px;
+  text-decoration: underline;
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+.titre22 {
+  font-size: 40px;
+  color: yellow;
+  font-family: "Oswald", sans-serif;
+  text-shadow: 2px 2px 10px aquamarine;
+  margin-bottom: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+.adam {
+  width: 200px;
+  height: 150px;
+  transition: all 0.5s ease;
+  margin-left: 770px;
+}
+
+.adam:hover {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  transform: rotate(360deg);
+}
+
+.family {
+  width: 400px;
+  height: 300px;
+  transition: all 0.5s ease;
+  margin-left: 680px;
+}
+
+.family:hover {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  transform: rotate(360deg);
+}
